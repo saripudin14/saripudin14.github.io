@@ -37,4 +37,15 @@ document.addEventListener("DOMContentLoaded", function () {
         interval: 300, // Efek tangga: elemen muncul satu per satu
         reset: true
     });
+
+
+    // Efek Tangga (Staggered Reveal) untuk Gambar Proyek
+    ScrollReveal().reveal('.skill-card', {
+        origin: 'bottom',
+        distance: '50px',
+        duration: 1000,
+        delay: 200,
+        interval: 300, // Efek tangga: elemen muncul satu per satu
+        reset: true
+    });
 });
