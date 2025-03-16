@@ -9,14 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Animasi untuk gambar di dalam Portofolio
-    ScrollReveal().reveal('#porto img', {
-        origin: 'left',
-        distance: '100px',
-        duration: 1200,
-        delay: 200,
-        reset: true
-    });
 
     // About Me muncul dari bawah (tetap seperti sebelumnya)
     ScrollReveal().reveal('#about', {
