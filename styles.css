@@ -97,3 +97,16 @@
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
   }
 }
+
+#typing {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#nama {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
