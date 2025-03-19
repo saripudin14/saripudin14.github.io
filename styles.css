@@ -90,7 +90,7 @@
   font-weight: 500;
 }
 
-/* Hover effect hanya untuk desktop */
+
 @media (hover: hover) {
   .skill-card:hover {
     transform: translateY(-8px);
