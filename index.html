@@ -26,6 +26,7 @@
         <div class="container">
             <a class="navbar-brand h1" href="#"> <img
                     src="https://raw.githubusercontent.com/saripudin14/img/refs/heads/main/CuyLogo.webp"
+                    loading="lazy"
                     alt="Avatar Logo" style="width:65px;" class="rounded-pill"></a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -48,6 +49,7 @@
     <header>
         <div class="py-5 bg-success text-white text-center">
             <img src="https://raw.githubusercontent.com/saripudin14/img/refs/heads/main/assets/img/pp%20cv.jpg"
+                loading="lazy"
                 class="rounded-pill img-thumbnail mb-3" width="250px"">
             <h1 id="nama">Muhammad Arif Rivaldi</h1>
             <h3><span id="typing"></span></h3>
@@ -68,15 +70,15 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="https://raw.githubusercontent.com/saripudin14/img/refs/heads/main/assets/img/2021462.jpg"
-                            class="d-block w-100" " alt=" ...">
+                            class="d-block w-100" " loading="lazy" alt=" ...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="https://raw.githubusercontent.com/saripudin14/img/refs/heads/main/assets/img/01.jpg"
-                            class="d-block w-100" " alt=" ...">
+                            class="d-block w-100" " loading="lazy" alt=" ...">
                     </div>
                     <div class="carousel-item">
                         <img src="https://raw.githubusercontent.com/saripudin14/img/refs/heads/main/assets/img/2021404.jpg"
-                            class="d-block w-100" alt="...">
+                            class="d-block w-100" loading="lazy" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -396,9 +398,9 @@
 
     <!-- content end -->
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script rel="preconnect" src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "p75FH5Baj5b_4_T4EaZOz"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
     </script>
